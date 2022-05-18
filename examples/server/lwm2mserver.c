@@ -624,7 +624,7 @@ static void prv_clear_client(lwm2m_context_t *lwm2mH,
                              char * buffer,
                              void * user_data)
 {
-    uint16_t clientId;
+    uint16_t clientId; 
     lwm2m_uri_t uri;
     char * end = NULL;
     int result;
